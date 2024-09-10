@@ -18,7 +18,6 @@ let ipGenerator = getIP();
 const callAPI = async () => {
   try {
     let ip = ipGenerator.next().value;
-    console.log("🚀 ~ file: index.js:20 ~ callAPI ~ ip:", ip);
 
     axios
       .get(
