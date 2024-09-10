@@ -3,7 +3,7 @@ const fs = require("fs");
 
 function* getIP() {
   for (let i = 11; i <= 255; i++) {
-    for (let j = 10; j <= 255; j++) {
+    for (let j = 1; j <= 255; j++) {
       for (let k = 180; k <= 255; k++) {
         for (let l = 1; l <= 255; l++) {
           yield `${i}.${j}.${k}.${l}`;
